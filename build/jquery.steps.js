@@ -1270,7 +1270,7 @@ function stepClickHandler(event)
     // If nothing has changed
     if (oldIndex === state.currentIndex)
     {
-        getStepAnchor(wizard, oldIndex).focus();
+        //getStepAnchor(wizard, oldIndex).focus();
         return false;
     }
 }
